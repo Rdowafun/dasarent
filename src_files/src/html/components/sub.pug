@@ -1,0 +1,15 @@
+section.sub
+    .container
+        .sub-block
+            .sub-text
+                h4 ОСТАВИТЬ ЗАЯВКУ
+                p Оставьте свои данные и мы свяжемся с вами в кротчайшие сроки
+            form(action="#" method="get").sub-form
+                .sub-form__group
+                    input(type="text", name="name" placeholder="Имя").sub-form__input
+                    input(type="tel", name="phone" id="phone" placeholder="+998 (__) ___-__-__").sub-form__input
+                    input(type="email", name="" placeholder="E-mail").sub-form__input
+                    button(type="submit").sub-form__btn Отправить
+                .sub-form__checkbox
+                    input(type="checkbox", name="agree")
+                    p * Я согласен на обработку моих данных
